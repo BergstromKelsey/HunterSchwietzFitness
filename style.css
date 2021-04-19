@@ -1,0 +1,18 @@
+body {
+    background-image: url("/Users/kelseybergstrom/Desktop/HunterSchwietzFitness/BWHunter-ConvertImage.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cormorant', serif;
+}
+
+.responsive {
+        width:45%;
+        height: auto;
+        padding-bottom:20px;
+        padding-left:2%;
+
+        
+      }
+  
