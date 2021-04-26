@@ -1,0 +1,17 @@
+.row,.btn{
+    display: flex;
+  justify-content: center;
+
+}
+
+.btn,.submitdiv{
+    outline: 2px solid black;
+    width:300px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+body{
+    font-family: 'Cormorant', serif;
+}
