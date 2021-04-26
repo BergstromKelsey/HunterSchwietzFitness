@@ -8,11 +8,13 @@ body {
 }
 
 .responsive {
-        width:45%;
+        width:60%;
         height: auto;
-        padding-bottom:20px;
+        
         padding-left:2%;
-
+    
+        padding-right:2%;
+        margin-top:2%;
         
       }
   
