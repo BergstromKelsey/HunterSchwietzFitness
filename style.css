@@ -1,20 +1,21 @@
 body {
     background-image: url("photos/BWHunter-ConvertImage.jpg");
     height: 100vh;
-    background-position: center;
+   background-position: center;
+  
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Cormorant', serif;
+   
 }
 
 .responsive {
         width:60%;
         height: auto;
-        
         padding-left:2%;
-    
         padding-right:2%;
-        margin-top:5%;
+        padding-top:5%;
+       
         
       }
   

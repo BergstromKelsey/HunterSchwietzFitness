@@ -8,10 +8,13 @@ body{
 /* Slideshow container */
 .slideshow-container {
   max-width: 700px;
+  max-height:400px;
+  float:left;
   position: relative;
   padding-left:2%;
   padding-right:2%;
   margin-top:2%;
+  margin-bottom:3.5%;
 
 }
 
@@ -90,7 +93,7 @@ body{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: 1}
+  from {opacity: .5}
   to {opacity: 1}
 }
 
@@ -99,3 +102,7 @@ body{
     to {opacity: 1}
   }
 
+.about{
+  padding-left:2%;
+  padding-right:2%;
+}

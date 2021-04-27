@@ -15,3 +15,8 @@
 body{
     font-family: 'Cormorant', serif;
 }
+
+.md-form{
+    padding-left:5%;
+    padding-right:5%;
+}
