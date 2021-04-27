@@ -10,12 +10,29 @@ body {
 }
 
 .responsive {
-        width:60%;
+        width:100%;
         height: auto;
-        padding-left:2%;
-        padding-right:2%;
-        padding-top:5%;
+      
        
         
       }
   
+.quote{
+  background: rgba(112, 111, 111, 0.5);
+  margin-top:2%;
+ margin-left:2%;
+  padding-right:2%;
+  max-width:80vh;
+  margin:2%;
+}
+
+.test{
+ 
+  color:black;
+  font-weight:heavy;
+  padding-left:2%;
+  padding-right:2%;
+  max-width:80vh;
+  margin:2%;
+  
+}
