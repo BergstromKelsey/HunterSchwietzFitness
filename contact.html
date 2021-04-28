@@ -1,115 +1,71 @@
 <!--Section: Contact v.2-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Form First</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="contact.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form First</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                  <a class="nav-link" href="https://bergstromkelsey.github.io/HunterSchwietzFitness/#">Home</a>
+                    <a class="nav-link" href="https://bergstromkelsey.github.io/HunterSchwietzFitness/#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://bergstromkelsey.github.io/HunterSchwietzFitness/about.html">About</a>
+                    <a class="nav-link"
+                        href="https://bergstromkelsey.github.io/HunterSchwietzFitness/about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="https://bergstromkelsey.github.io/HunterSchwietzFitness/contact.html" >Booking</a>
+                    <a class="nav-link"
+                        href="https://bergstromkelsey.github.io/HunterSchwietzFitness/contact.html">Booking</a>
                 </li>
-              </ul>
-             
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container-sm"><BR><BR>
+        <center> Lets get started on a better you.<BR>
+            <h2>Book a consultaion
+        </center>
+        </h2>
+       
+
+        <form action="/action_page.php">
+            <div class="form-group">
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Name" id="pwd">
+                  </div>
+              <input type="email" class="form-control" placeholder="Email" id="email">
             </div>
-          </nav>
-<!--Section: Contact v.2-->
-<section class="mb-4">
-
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Book a consultaion</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Lets get started on a better you.</p>
-
-    <div class="row">
-
-        <!--Grid column-->
-        <div class="col-md-8 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-8">
-                        <div class="md-form mb-0">
-                            <input type="text" placeholder="Your Name"  id="name" name="name" class="form-control">
-                            
-                        </div>
-                    </div>
-                    <!--Grid column-->
-<BR><BR>
-                    <!--Grid column-->
-                    <div class="col-md-8">
-                        <div class="md-form mb-0">
-                            <input type="text" id="email" placeholder="Your Email"  name="email" class="form-control">
-                          
-                        </div>
-                    </div>
-                    <!--Grid column-->
-
-                </div>
-         <BR>
-
-                <!--Grid row-->
-                <div class="row">
-
-                    <!--Grid column-->
-                    <div class="col-md-8">
-
-                        <div class="md-form">
-                            <textarea type="text" placeholder="Tell me about your restorative or performance goals" id="message" name="message" rows="4" class="form-control md-textarea"></textarea>
-                            
-                        </div>
-
-                    </div>
-                </div>
-                <!--Grid row-->
-
-            </form>
-<BR><center>
-            <div class="submitdiv ">
-                <a class="btn " onclick="document.getElementById('contact-form').submit();">Submit</a>
-            </div>
+            <textarea id="note" class="form-control" placeholder="Your restorative or performance goals"></textarea>
         
-        <!--Grid column-->
+           <BR>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
 
-        <!--Grid column-->
-        <!-- <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-         
-        </div> -->
-        <!--Grid column-->
-
-    </div>
-
-</section>
-<!--Section: Contact v.2-->
-        
-   
-
-<script src="script.js"></script>
+        </div>
+       
+</div>
+            <script src="script.js"></script>
 </body>
+
 </html>
 <!--Section: Contact v.2-->

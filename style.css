@@ -17,16 +17,17 @@ body {
         
       }
   
-.quote{
+.logopic{
   background: rgba(112, 111, 111, 0.5);
   margin-top:2%;
  margin-left:2%;
   padding-right:2%;
   max-width:80vh;
-  margin:2%;
+  
+  margin-bottom:8px;
 }
 
-.test{
+.quote{
  
   color:black;
   font-weight:heavy;
@@ -35,4 +36,8 @@ body {
   max-width:80vh;
   margin:2%;
   
+}
+
+.slide-right{
+  padding-bottom:6px;
 }
